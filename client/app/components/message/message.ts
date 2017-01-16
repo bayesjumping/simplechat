@@ -2,7 +2,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { WebSocketService } from '../../services/web-socket-service';
 
 @Component({
-    selector: 'publish',
+    selector: 'message',
     templateUrl: 'app/components/message/message.html',
     styleUrls: ['app/components/message/message.css'],
     providers: [ WebSocketService ], 
